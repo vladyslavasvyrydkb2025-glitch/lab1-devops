@@ -11,7 +11,7 @@ def main():
         "the resilience of digital infrastructure against zero-day threats."
     )
 
-    shift = 6
+    shift = 10
     encrypted_text = caesar_cipher(security_manifesto, shift=shift)
 
     print("1. КРИПТОГРАФІЧНИЙ БЛОК (ШИФР ЦЕЗАРЯ)")
